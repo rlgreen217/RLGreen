@@ -7,8 +7,8 @@ tagline: A brief description of your site
 description: >- # This means to ignore newlines until "baseurl:"
   A more detailed description of your personal website, including your interests,
   skills, or what visitors can expect to find here.
-baseurl: "/your-repo-name" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # the base hostname & protocol for your site
+baseurl: "/blog" # the subpath of your site, e.g. /blog
+url: "https://rlgreen.github.io" # the base hostname & protocol for your site
 
 # Author information
 author:
