@@ -1,3 +1,43 @@
+# Site settings
+
 theme: jekyll-theme-minimal
-title: Octocat's homepage
+title: Robert Green's homepage
 description: Bookmark this to keep an eye on my project updates!
+tagline: A brief description of your site
+description: >- # This means to ignore newlines until "baseurl:"
+  A more detailed description of your personal website, including your interests,
+  skills, or what visitors can expect to find here.
+baseurl: "/your-repo-name" # the subpath of your site, e.g. /blog
+url: "https://yourusername.github.io" # the base hostname & protocol for your site
+
+# Author information
+author:
+  name: Your Name
+  email: your.email@example.com
+  github: yourgithubusername
+  linkedin: yourlinkedinprofile
+  twitter: yourtwitterhandle
+
+# Build settings
+markdown: kramdown
+theme: minima # Example theme, change if using a different one
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections (optional, for organizing content like blog posts or projects)
+collections:
+  posts:
+    output: true
+  projects:
+    output: true
+
+# Exclude from processing (optional)
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
